@@ -1,7 +1,7 @@
 # BFS & DFS && shorest path via BFS
 - input: a graph G represented in adjacency list form.
 ```
-BFS(G):                                     DFS(G):                                     BFS(G):
+BFS(G):                                     DFS(G):                                     SP-BFS(G):
 Queue q                                     Stack s                                     Queue q
 # Add staring vertex to q
 G[0].discovered = true                      G[0].discovered = true                      G[0].discovered = true
@@ -15,7 +15,10 @@ while not q.is_empty():                     while not s.is_empty():             
             q.enqueue(u)                                   s.push(u)                                q.enqueue(u)
                                                                                                     u.dist = v.dist + 1
 ```
-# Shortest Path via BFS
+# Divide-and-Conquer Template
+1. Divide - Split the original problem into several smaller subproblems
+2. Conquer - Solve each subproblem recursively
+3. Combine - Aggregate the solutions
 
 
 # Sorting Algorithm
