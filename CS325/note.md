@@ -18,7 +18,6 @@
 ![alt text](./images/IMG_F69B8CB5D2F6-1.jpeg "Logo Title Text 1")
 
 # Graph
-
 ## Simple graph
 - Undirected and unweighted
 - No self loop
