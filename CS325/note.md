@@ -22,8 +22,9 @@
 ## cyclicity
 -acyclic if it does not contain a cycle as a subgraph
 
-# Recurrences
-- T(n) = aT(n/2) + O(n)
-- a is # of subproblems; n/2 is size of subproblems; O(n) is the amount of work done in the 'combine phase'
+# Recurrences T(n) = aT(n/b) + f(n)
+- a is # of subproblems; 
+- n/b is upper bound size of each subproblem; 
+- f(n) work done to aggregate the subproblems
 
 

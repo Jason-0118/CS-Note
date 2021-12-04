@@ -20,6 +20,27 @@ while not q.is_empty():                     while not s.is_empty():             
 2. Conquer - Solve each subproblem recursively
 3. Combine - Aggregate the solutions
 
+# MaxSub O(n)
+```
+    //CPP format
+    int max_current;
+    int max_global;
+    max_current = max_global = array[0];
+    for (int i = 1; i < array.size(); i++)
+    {
+        if (array[i] > array[i] + max_current)
+            max_current = array[i];
+        else
+            max_current = max_current + array[i];
+        max_global = max(max_current, max_global);
+    }
+    return max_global;
+```
+
+
+
+
+
 
 # Sorting Algorithm
 
