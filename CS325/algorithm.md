@@ -1,10 +1,10 @@
 # BFS
-`cpp
+```
 Vertex:
     vertex[] neighbors
     int id
     discovered = false
-`
+```
 
 
 # Sorting Algorithm
