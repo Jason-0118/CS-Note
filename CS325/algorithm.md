@@ -20,7 +20,7 @@ while not q.is_empty():                     while not s.is_empty():             
 2. Conquer - Solve each subproblem recursively
 3. Combine - Aggregate the solutions
 
-# MaxSub O(n)
+# Max-sub-array O(n)
 ```
     //CPP format
     int max_current;

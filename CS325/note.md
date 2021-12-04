@@ -10,7 +10,7 @@
 - e.g: 100n and e^n (derivative both)
 ## Small-w
 - f(n) = w(g(n)) iif g(n) = o(f(n))
-![alt text](./images/IMG_F69B8CB5D2F6-1.jpeg "Logo Title Text 1")
+![alt text](./images/IMG_F69B8CB5D2F6-1.jpeg "Asymptotic notation")
 
 # Graph
 ## Simple graph
@@ -26,5 +26,9 @@
 - a is # of subproblems; 
 - n/b is upper bound size of each subproblem; 
 - f(n) work done to aggregate the subproblems
+## Recursion tree 
+- height of tree: logb(n)
+![alt text](./images/IMG_EBF3B7275F0D-1.jpeg "Recursion tree example")
+
 
 
