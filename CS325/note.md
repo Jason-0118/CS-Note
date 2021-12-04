@@ -1,9 +1,10 @@
-# Algorithmist
-## Ada Lovelace. 
-Known for: 
-- the wolrd's first programmer and computer algorithm designer.
-- designed an algorithm for computing Bernoulli numberss.
-- Namesake of the progamming language Ada.
+# Sorting Algorithm
 
-## Xin 
-- asd
+## Bubble Sort
+
+## Merge Sort
+
+## Binary Search
+
+# Asymptotic notation
+#
