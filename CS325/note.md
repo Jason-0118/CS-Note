@@ -19,5 +19,7 @@
 - No parallel edges
 ## induced subgraph
 - a subset of the vertices in the original graph together with all of the edges running between them.
+## cyclicity
+-acyclic if it does not contain a cycle as a subgraph
 
 
