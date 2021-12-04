@@ -23,5 +23,5 @@
 ## small-w
 - f(n) = w(g(n)) iif g(n) = o(f(n))
 
-![alt text](IMG_F69B8CB5D2F6-1.jpeg "Logo Title Text 1")
+![alt text](./images/IMG_F69B8CB5D2F6-1.jpeg "Logo Title Text 1")
 
