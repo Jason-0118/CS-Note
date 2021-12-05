@@ -81,8 +81,11 @@ HuffmanCode(F):
     Construct C by running BFS/DFS on T
     return T, C
 ```
-## MST - sum to minimum weight over all spaning trees
-### Kruskal algorithm
+## MST - Kruskal algorithm
+- MST: sum to minimum weight over all spaning trees
+- Kruskal algorithm: start with the empty graph. Greedily add the lighest edge in E that does not introduce a cycle. 
+- Repeat until no edges are left/ |E| = |V| - 1
+1. Initalize a new graph T with the vertices of G but with no edges
 
 
 
