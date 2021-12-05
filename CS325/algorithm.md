@@ -38,13 +38,27 @@ while not q.is_empty():                     while not s.is_empty():             
 ```
 
 # Karatsuba Algorithm
+Time complexity: T(n) = 4T(n/2) + O(n) = O(n^2) => T(n) = 3T(n/2) + O(n) = O(n^log2(3)) = O(n^1.58)
 ```
     a   b                                         c   d
 X: 146 123 => X = a * 10^(n/1) + b            Y: 123 456 => Y = c * 10^(n/1) + d
 X * Y = (ac)*10^n + (ad + bc)*10^(n/2) + bd
-                    (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
+optimal:            (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
 ```
-                    
+
+# Closest Pair
+```
+ClosestPair(s):
+    left = ClosestPair(P-Left)
+    right = ClosestPair(P-right)
+    P-Strip = Strip of width is min(left, right)
+    strip = ∞
+    for p in P-Strip:
+        for q in P-Strip with p.y - min(left, right) ≤ q.y ≤ p.y:
+            if(p.x-q.x)^2 + (p.y-q.y)^2 < strip
+                strip = (p.x-q.x)^2 + (p.y-q.y)^2
+    return min(left, right, strip)
+```
 
 
 
