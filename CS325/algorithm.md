@@ -61,7 +61,26 @@ ClosestPair(s):
     return min(left, right, strip)
 ```
 
-# Huffman Code
+# Greedy algorithms
+## Huffman codes
+![alt text](./images/IMG_E98F7B8CB8CD-1.jpeg "Huffman codes example")
+- inout: a table F with frequencies of n ≥ 2 characters
+- output a tree T and a table C corresponding to the optimal binary prefix code for F
+```
+#Pseudocode
+HuffmanCode(F):
+    initialize n nodes with vi.char = ci, vi.freq=F[ci]
+    insert v1, v2, .., vn into min-priority queue Q
+    while |Q|>1:
+        allocate new node u
+        u.left_child = Q.exrtact_min()
+        u.right_child = Q.exrtact_min()
+        u.freq = u.left_child.freq + u.right_child.freq
+        Q.insert(u)
+    T = Q.extract_min()
+    Construct C by running BFS/DFS on T
+    return T, C
+```
 
 
 
