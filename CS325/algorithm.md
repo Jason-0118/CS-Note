@@ -47,6 +47,7 @@ optimal:            (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
 ```
 
 # Closest Pair
+![alt text](./images/IMG_6D933E4FB08B-1.jpeg "Closest Pair image")
 ```
 ClosestPair(s):
     left = ClosestPair(P-Left)
@@ -60,6 +61,7 @@ ClosestPair(s):
     return min(left, right, strip)
 ```
 
+# Huffman Code
 
 
 
