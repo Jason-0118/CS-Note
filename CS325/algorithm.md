@@ -81,6 +81,9 @@ HuffmanCode(F):
     Construct C by running BFS/DFS on T
     return T, C
 ```
+## MST - sum to minimum weight over all spaning trees
+### Kruskal algorithm
+
 
 
 
