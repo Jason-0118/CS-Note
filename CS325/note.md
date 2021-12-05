@@ -32,3 +32,6 @@
 ## Solving recurrences using Master Theorem
 ![alt text](./images/IMG_99550F772125-1.jpeg "Master Theorem")
 
+# Spanning Tree
+- Possibility of ST: n^(n-2)
+

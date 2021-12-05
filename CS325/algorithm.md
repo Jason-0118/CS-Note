@@ -81,15 +81,44 @@ HuffmanCode(F):
     Construct C by running BFS/DFS on T
     return T, C
 ```
-## MST - Kruskal algorithm
-- MST: sum to minimum weight over all spaning trees
-- Kruskal algorithm: start with the empty graph. Greedily add the lighest edge in E that does not introduce a cycle. 
+## MST - Kruskal algorithm ElogV
+- MST: sum to minimum weight over all spaning trees                             Runtime
+- Kruskal algorithm: start with the empty graph. Greedily add the 
+  lighest edge in E that does not introduce a cycle. 
 - Repeat until no edges are left/ |E| = |V| - 1
 1. Initalize a new graph T with the vertices of G but with no edges
-2. Sort the edges of G by weight
-3. For each edge(u,c) ∈ E (lightest to heaviest):
-    if u,v are in different connected components of T:
+2. Sort the edges of G by weight                                                (ElogE)
+3. For each edge(u,c) ∈ E (lightest to heaviest):                                 (E)
+    if u,v are in different connected components of T / does not form a cycle:   (logV) (union find data structure)
         add(u,v) to the edges of T
+
+# Shortest path in graph
+- input weighted graph G = (V, E, w) represented by an adjacency list
+## SPSP: Single-Pair Shortest Path
+- output: The distance (s, t) between s and t
+## SSSP: Single-Source Shortest Path
+- output: The distance (s, t) between s and each v ∈ V.
+## APSP: All-Pairs Shortest Paths
+- output: The distance (s, t) between each pair of vertices s, t ∈ V.
+
+## Dijkstra Algorithm for SSSP
+- Dijkstra = BFS with a priority queue
+```
+#Pseudocode
+                    | 0 if v = s
+initialize v.d =    | ∞ if ≠ s
+Insert vertices into priority queue Q
+S = ∅
+while Q ≠ ∅:
+    v = Q.extract_min()
+    S = S U {v}
+    for each u in v.neighbors:
+        u.d = min (u.d, v.d + w(u, v))
+```
+## Floyd-Warshall Algorithm for APSP
+![alt text](./images/IMG_43B10418EE63-1.jpeg "Floyd-Warshall")
+
+
 
 
 
