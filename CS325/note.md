@@ -26,9 +26,9 @@
 - a is # of subproblems; 
 - n/b is upper bound size of each subproblem; 
 - f(n) work done to aggregate the subproblems
-## Recursion tree 
+## Solving recurrences using Recursion Tree 
 - height of tree: logb(n)
 ![alt text](./images/IMG_EBF3B7275F0D-1.jpeg "Recursion tree example")
-
-
+## Solving recurrences using Master Theorem
+![alt text](./images/IMG_99550F772125-1.jpeg "Master Theorem")
 
