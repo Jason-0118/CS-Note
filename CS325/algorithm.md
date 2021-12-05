@@ -86,7 +86,10 @@ HuffmanCode(F):
 - Kruskal algorithm: start with the empty graph. Greedily add the lighest edge in E that does not introduce a cycle. 
 - Repeat until no edges are left/ |E| = |V| - 1
 1. Initalize a new graph T with the vertices of G but with no edges
-
+2. Sort the edges of G by weight
+3. For each edge(u,c) ∈ E (lightest to heaviest):
+    if u,v are in different connected components of T:
+        add(u,v) to the edges of T
 
 
 
