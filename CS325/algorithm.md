@@ -38,10 +38,12 @@ while not q.is_empty():                     while not s.is_empty():             
 ```
 
 # Karatsuba Algorithm
--    a   b                                         c   d
-- X: 146 123 => X = a * 10^(n/1) + b            Y: 123 456 => Y = c * 10^(n/1) + d
-- X * Y = (ac)*10^n + (ad + bc)*10^(n/2) + bd
--                     (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
+```
+    a   b                                         c   d
+X: 146 123 => X = a * 10^(n/1) + b            Y: 123 456 => Y = c * 10^(n/1) + d
+X * Y = (ac)*10^n + (ad + bc)*10^(n/2) + bd
+                    (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
+```
                     
 
 
