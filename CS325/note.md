@@ -66,5 +66,5 @@
 ## Verifiability
 
 # Reductions 
-- A decision problem B is NP-hard if there is a polynomial-time reduction from *every* problem in NP to B.
+- A decision problem B is NP-hard if there is a polynomial-time reduction from **every** problem in NP to B.
 - A decision problem B is NP-complete if it is in NP and is NP-hard.
