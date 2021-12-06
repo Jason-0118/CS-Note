@@ -70,4 +70,13 @@
     - B is at least as hard as the ahrdest problems in NP
 - A decision problem B is NP-complete if it is in NP and is NP-hard.
     - B is one of the hardest problems in NP
-![alt text](./images/IMG_0DBE07C8CE3A-1.jpeg "reduction")
+- ![alt text](./images/IMG_0DBE07C8CE3A-1.jpeg "reduction")
+
+# SAT - The satisfiability problem
+- A clause C is a disjunction (OR) of literals
+    - C = X1 v X2 v X3
+- A CNF-Formula F is a conjunction (AND) of clauses
+    - CNF-SAT is the "first" NP-complete problem
+    - CNF stands for "conjunctive normal form," are a special type of circuit
+    - F = (X1 v X3 v X4) ^ (X2 v X5)
+- ![alt text](./images/IMG_1BC9B54ED4B7-1.jpeg "process of showing NP-complete")
