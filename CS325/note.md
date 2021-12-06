@@ -1,8 +1,8 @@
 # Asymptotic notation
-## Basic growth rate ordering rules (for all a,b>0)
-1. Logarithms vs. polynomials: (logn)^a = o(n^b)
-2. Different polynomials: n^a = o(n^b)
-3. Polynomials vs. exponentials: n^a = o(b^n)
+## Basic growth rate ordering rules
+1. Logarithms vs. polynomials: for all a,b>0, (logn)^a = o(n^b)
+2. Different polynomials: for all b > a > 0,  n^a = o(n^b)
+3. Polynomials vs. exponentials: for all a>0, b>1 n^a = o(b^n)
 - ![alt text](./images/table.png "table")
 ## Big-O
 - upper bounds the growth rate of a function up to a constant
