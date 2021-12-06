@@ -166,6 +166,7 @@ def longest_common_subsequence(s1, s2, result):
 
 ## Matrix-Chain Multiplication
 ![alt text](./images/dotProduct.png "Floyd-Warshall")
+[Source link](https://www.youtube.com/watch?v=GMzVeWpyTN0)
 
 
 
