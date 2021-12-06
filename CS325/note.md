@@ -43,4 +43,24 @@
     1. "Bottom-up" dynamic programming
     2. Iterative. Builds a table with solutions to subproblems
 
-# NP-Completeness
+# P VS. NP
+## P
+- P stands for "polynomial"
+- Set of efficiently solvable problems in polynomial time
+- Problems in P: logn, n, nlogn, n^2
+- Ex: addition, multiplication, closest pair of points, sorting, shortest paths, MST, ED...
+## NP
+- NP stands for "nondeterministic polynomial"
+- Set of efficientlyverifiable problems in polynomial time
+- Problems in NP: 2^n, n^n, n!
+- Ex: Sudoku
+## NP-comolete
+- The hardest problems in NP
+## Three versions of problems
+- Decision problem
+    1. A problem with a binary (YES or NO) answer
+- Optimization problem
+    1. What is the optimal value of the solutiom?
+- Search problem
+    1. What is the optimal solution itself?
+## Verifiability
