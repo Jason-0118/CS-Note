@@ -67,4 +67,7 @@
 
 # Reductions 
 - A decision problem B is NP-hard if there is a polynomial-time reduction from **every** problem in NP to B.
+    - B is at least as hard as the ahrdest problems in NP
 - A decision problem B is NP-complete if it is in NP and is NP-hard.
+    - B is one of the hardest problems in NP
+![alt text](./images/IMG_0DBE07C8CE3A-1.jpeg "reduction")
