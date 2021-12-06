@@ -40,8 +40,9 @@ while not q.is_empty():                     while not s.is_empty():             
 # Karatsuba Algorithm
 Time complexity: T(n) = 4T(n/2) + O(n) = O(n^2) => T(n) = 3T(n/2) + O(n) = O(n^log2(3)) = O(n^1.58)
 ```
+#make the number as a even digits, 132 => 0132
     a   b                                         c   d
-X: 146 123 => X = a * 10^(n/1) + b            Y: 123 456 => Y = c * 10^(n/1) + d
+X: 14   23 => X = a * 10^(n/1) + b            Y:  23  56 => Y = c * 10^(n/1) + d
 X * Y = (ac)*10^n + (ad + bc)*10^(n/2) + bd
 optimal:            (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
 ```
@@ -121,6 +122,25 @@ while Q ≠ ∅:
 # Dynamic Programming
 ## ED - Edit Distance
 ```
+#Pseudocode
+initizalize (m+1)x(n+1) array A
+for i = 0, ... , m
+    A(i,0) = i
+for j = 0, ... , n
+    A(0,j) = j
+
+for i = 0,...,m:
+    for j = 0,...,n:
+        A(i, j) = min(A[i - 1][j] + 1, A[i][j - 1] + 1,
+                                  diff(s2[i], s1[j]) + A[i - 1][j - 1])
+```
+```
+def diff(x, y):
+    if x == y:
+        return 0
+    else:
+        return 1
+        
 def edit_distance(s1, s2):
     n = len(s1)
     m = len(s2)
