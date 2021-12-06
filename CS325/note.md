@@ -13,6 +13,7 @@
 ![alt text](./images/IMG_F69B8CB5D2F6-1.jpeg "Asymptotic notation")
 
 # Graph
+- ![alt text](./images/IMG_984F71216B9F-1.jpeg "graph")
 ## Simple graph
 - Undirected and unweighted
 - No self loop
@@ -67,16 +68,36 @@
 
 # Reductions 
 - A decision problem B is NP-hard if there is a polynomial-time reduction from **every** problem in NP to B.
-    - B is at least as hard as the ahrdest problems in NP
+    - B is at least as hard as the hardest problems in NP
 - A decision problem B is NP-complete if it is in NP and is NP-hard.
     - B is one of the hardest problems in NP
 - ![alt text](./images/IMG_0DBE07C8CE3A-1.jpeg "reduction")
 
-# SAT - The satisfiability problem
+## SAT - The satisfiability problem
 - A clause C is a disjunction (OR) of literals
-    - C = X1 v X2 v X3
+    1. C = X1 v X2 v X3
 - A CNF-Formula F is a conjunction (AND) of clauses
-    - CNF-SAT is the "first" NP-complete problem
-    - CNF stands for "conjunctive normal form," are a special type of circuit
-    - F = (X1 v X3 v X4) ^ (X2 v X5)
+    1. CNF-SAT is the "first" NP-complete problem
+    2. CNF stands for "conjunctive normal form," are a special type of circuit
+    3. F = (X1 v X3 v X4) ^ (X2 v X5)
 - ![alt text](./images/IMG_1BC9B54ED4B7-1.jpeg "process of showing NP-complete")
+
+## Clique
+- NP-complete
+- a k-clique in a graph is a set of k vertices **each pair** of which is connected by an edge
+- ![alt text](./images/IMG_70456EDBD483-1.jpeg "process of showing Clique")
+
+## A search-to-decision reduction for IndependentSet
+- [3-SAT reduce to IS](https://www.youtube.com/watch?v=lTqTk9AQR5s)
+1. Binary search using D(black box algorithm) to find the size k
+2. Make a copy of G1 of G
+3. For each i = 1, ... , n:
+    - ifD(G1-vi, k) = 1, delete vi and incident edges from G1
+4. Output G1
+
+## NP-Complete probems
+- Logic: Circuit-SAT, CNF-SAT, 3-SAT
+- Graph: Clique, IS, Graph coloring, hamiltonian path, travelling salesman problem
+- Covering: Set cover, hitting set, streets and guards
+- Optimization: integer programming, quadratic programming
+- Games: Sudoku, minesweeper, optimally solving rubik's cubes
