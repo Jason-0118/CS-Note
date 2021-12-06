@@ -119,9 +119,8 @@ while Q ≠ ∅:
 ![alt text](./images/IMG_43B10418EE63-1.jpeg "Floyd-Warshall")
 
 # Dynamic Programming
-## Edit Distance
+## ED - Edit Distance
 ```
-# Py format
 def edit_distance(s1, s2):
     n = len(s1)
     m = len(s2)
@@ -139,9 +138,34 @@ def edit_distance(s1, s2):
                                   diff(s2[i], s1[j]) + table[i - 1][j - 1])
     return table[m][n]
 ```
-- ↖↖ mutation
+- ↖ mutation
 - ⬅️ insertion
 - ⬆️ deletion
+
+## LCS - Longest Common Subsequence
+```
+def longest_common_subsequence(s1, s2, result):
+    #init 2d-array with 'None'
+    n = len(s1)
+    m = len(s2)
+    s1 = " " + s1
+    s2 = " " + s2
+    table1 = [[None for x in range(n + 1)] for y in range(m + 1)]
+    for i in range(m + 1):
+        for j in range(n + 1):
+            if i == 0: table1[i][j] = 0
+            elif j == 0: table1[i][j] = 0
+            else:
+                if s2[i] == s1[j]:
+                    table1[i][j] = table1[i - 1][j - 1] + 1
+                else:
+                    table1[i][j] = max(table1[i][j - 1],
+                                       table1[i - 1][j])  #look up and left
+    return table1[m][n]
+```
+
+## Matrix-Chain Multiplication
+![alt text](./images/dotProduct.png "Floyd-Warshall")
 
 
 
