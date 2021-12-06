@@ -35,3 +35,11 @@
 # Spanning Tree
 - Possibility of ST: n^(n-2)
 
+# Dynaic Programming
+- Memoization
+    1. "Top-down" dynamic programming
+    2. Recursive. Stores solutions to subproblems for reuse
+- Tabulation
+    1. "Bottom-up" dynamic programming
+    2. Iterative. Builds a table with solutions to subproblems
+

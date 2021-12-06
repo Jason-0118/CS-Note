@@ -118,6 +118,30 @@ while Q ≠ ∅:
 ## Floyd-Warshall Algorithm for APSP
 ![alt text](./images/IMG_43B10418EE63-1.jpeg "Floyd-Warshall")
 
+# Dynamic Programming
+## Edit Distance
+```
+# Py format
+def edit_distance(s1, s2):
+    n = len(s1)
+    m = len(s2)
+    s1 = " " + s1
+    s2 = " " + s2
+    table = [[0 for x in range(n + 1)] for y in range(m + 1)]
+    for i in range(m + 1):
+        for j in range(n + 1):
+            if i == 0:
+                table[i][j] = j
+            elif j == 0:
+                table[i][j] = i
+            else:
+                table[i][j] = min(table[i - 1][j] + 1, table[i][j - 1] + 1,
+                                  diff(s2[i], s1[j]) + table[i - 1][j - 1])
+    return table[m][n]
+```
+- ↖↖ mutation
+- ⬅️ insertion
+- ⬆️ deletion
 
 
 
