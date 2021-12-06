@@ -167,7 +167,7 @@ def longest_common_subsequence(s1, s2, result):
 ## Matrix-Chain Multiplication
 ![alt text](./images/dotProduct.png "dot product image")
 ![alt text](./images/matrixChain.png "Matrix Chain image")
-[Tutorial link](https://www.youtube.com/watch?v=GMzVeWpyTN0)
+- [Tutorial link](https://www.youtube.com/watch?v=GMzVeWpyTN0)
 
 
 
