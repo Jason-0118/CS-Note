@@ -50,6 +50,7 @@ optimal:            (ad + bc)*10^(n/2) = (a+b)(c+d)-ac-bd
 # Closest Pair
 ![alt text](./images/IMG_6D933E4FB08B-1.jpeg "Closest Pair image")
 ```
+Sort all points in S both by x and y coordinate
 ClosestPair(s):
     left = ClosestPair(P-Left)
     right = ClosestPair(P-right)
@@ -140,7 +141,7 @@ def diff(x, y):
         return 0
     else:
         return 1
-        
+
 def edit_distance(s1, s2):
     n = len(s1)
     m = len(s2)
