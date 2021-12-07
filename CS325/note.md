@@ -70,6 +70,7 @@
 - Search problem
     1. What is the optimal solution itself?
 ## Verifiability
+- 
 
 # Reductions 
 - A decision problem B is NP-hard if there is a polynomial-time reduction from **every** problem in NP to B.
@@ -93,6 +94,8 @@
 - ![alt text](./images/IMG_70456EDBD483-1.jpeg "process of showing Clique")
 
 ## A search-to-decision reduction for IndependentSet
+- search: fill in the YES instance
+- decision: check if it is YES or NO instance
 - [3-SAT reduce to IS](https://www.youtube.com/watch?v=lTqTk9AQR5s)
 1. Binary search using D(black box algorithm) to find the size k
 2. Make a copy of G1 of G
