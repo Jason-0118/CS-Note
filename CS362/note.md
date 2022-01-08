@@ -34,3 +34,5 @@ example:
     - critical product constraints (performance, ease of use, volumes), and key financial indicators.
 
 
+# What is Product Management - [Source link](https://www.romanpichler.com/blog/romans-product-management-framework/)
+![alt text](./images/framework.png "framework")
