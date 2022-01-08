@@ -36,3 +36,19 @@ example:
 
 # What is Product Management - [Source link](https://www.romanpichler.com/blog/romans-product-management-framework/)
 ![alt text](./images/framework.png "framework")
+
+## Core Knowledge areas
+1. Vision and Leadership
+    - Establish a [shared vision](https://www.romanpichler.com/blog/tips-for-writing-compelling-product-vision/)
+        1. Describe the Motivation behind the Product
+        2. Look beyond the Product
+        3. Distinguish between Vision and Product Strategy
+        4. Employ a Shared Vision
+        5. Choose an Inspiring Vision
+        6. Think Big
+        7. Keep your Vision Short and Sweet
+        8. Use the Vision to Guide your Decisions
+    - Set realistic goals
+    - Describe the benefits the product should deliver
+    - Be able to actively listen to others
+    - Negotiate to reach agreement and get buy-in.
