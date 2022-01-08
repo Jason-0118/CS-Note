@@ -1,4 +1,4 @@
-# Product Vision
+# Product Vision - [Source link](https://www.joelonsoftware.com/2002/05/09/product-vision/)
 
 ## The pattern to explain the project to someone within tow mins
 - For (tarfet customer)
@@ -32,3 +32,5 @@ example:
     - customer satisfaction measures
     - key technology and operational requirements
     - critical product constraints (performance, ease of use, volumes), and key financial indicators.
+
+
