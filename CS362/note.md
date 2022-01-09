@@ -1,4 +1,4 @@
-# Product Vision - [Source link](https://www.joelonsoftware.com/2002/05/09/product-vision/)
+# [Product Vision](https://www.joelonsoftware.com/2002/05/09/product-vision/)
 
 ## The pattern to explain the project to someone within tow mins
 - For (tarfet customer)
@@ -34,7 +34,7 @@ example:
     - critical product constraints (performance, ease of use, volumes), and key financial indicators.
 
 
-# What is Product Management - [Source link](https://www.romanpichler.com/blog/romans-product-management-framework/)
+# [What is Product Management](https://www.romanpichler.com/blog/romans-product-management-framework/)
 ![alt text](./images/framework.png "framework")
 
 ## Core Knowledge areas
@@ -81,3 +81,40 @@ example:
     - Know how to understand if you develop a product with the right features and the right UX, how to test the appropriate aspects of your product and how to collect the relevant feedback and data (include the ability to perform [product demos, solution interviews, usability tests, A/B tests, and direct observation](https://www.romanpichler.com/blog/beyond-product-demo-validation-techniques-in-scrum/))
     - Be able to use an analytics tool to retrieve the relevant data and be able to analyse it effectively
     - Be able to [change (or “groom”) the product backlog](https://www.romanpichler.com/blog/the-product-backlog-refinement-steps/) using the newly gained insights.
+
+## The supporting knowledge areas
+1. General Market Knowledge
+    - Understand who your current customers and users are
+    - what product you offer them today including their value proposition and business model
+    - what competitors you have, how big your market share currently is, and which market segments you serve well.
+2. Development/Technologies
+    - Be a competent partner for development/IT/engineering
+    - have an interest in software technologies
+    - be comfortable collaborating with a cross-functional technical team.
+3. Marketing
+    - Be a respected partner for (product) marketing
+    - be able to help select the right marketing channels and to determine the right marketing mix
+    - help marketing with creating the marketing collateral.
+4. Sales and Support
+    - Be a respected partner for sales and support
+    - be able to help choose the right sales channels and create the sales collateral and training.
+5. Project/Release management
+    - Be able to determine the primary success factor for a major release/product version and to steer the development project
+    - be able to determine the project progress to forecast the progress(for instance, using a release burndown chart)
+    - be able to work with the Definition of Done
+    - be able to trade-off scope, time, and budget.
+6. Process
+    - Have a good understanding of ideation and innovation processes to generate and select ideas and to bring new products and new features to life. These should include Customer Development/Lean Startup, Business Model Generation, [Scrum](https://www.romanpichler.com/blog/the-scrum-cycle/), and Kanban.
+
+# [What, exactly, is a product manager](https://www.mindtheproduct.com/what-exactly-is-a-product-manager/)
+![alt text](./images/framework2.png "framework")
+- product management as the intersection between business, technology, and user experience.
+
+## Business
+1. Product Managers should be obsessed with optimising a product to achieve the business goals while maximising return on investment
+
+## Technology
+1. understanding the technology stack and level of effort involved is crucial to making the right decisions
+
+## UX
+1. Product Manager is the voice of the user inside the business and must be passionate about the user experience
