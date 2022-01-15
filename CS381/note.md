@@ -24,3 +24,8 @@
     4. Bounded means has a lower and upper bound.
     5. Num is a numeric typeclass – so things have to “act” like numbers.
     6. Integral and Floating what they seem
+
+-A polymorphic function is called overloaded if its type contains one or more class constraints
+    1. sum :: Num a => [a] -> a, for any numeric type a(1 or 1.3), sum takes a list of values of type a and returns a value of type a
+
+-Conditional expressions must always have an else branch, which avoids any possible ambiguity issues.

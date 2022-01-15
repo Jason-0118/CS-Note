@@ -1,5 +1,6 @@
-# [Product Vision](https://www.joelonsoftware.com/2002/05/09/product-vision/)
+# Week 1
 
+## [Product Vision](https://www.joelonsoftware.com/2002/05/09/product-vision/)
 ## The pattern to explain the project to someone within tow mins
 - For (tarfet customer)
 - Who (statement of the need or opportunity)
@@ -118,3 +119,32 @@ example:
 
 ## UX
 1. Product Manager is the voice of the user inside the business and must be passionate about the user experience
+
+# Week 2
+## Risk Management
+1. Uncertainties 
+    - Loosely defined requirements
+    - Requirements changes due to changes in customer needs
+    - Difficulties in estimating the time and resources reuqired for software development
+    - Difference in individual skills
+
+2. Proactive and Reactive risk management
+    - Reactive
+        1. Nothing is done about risks until something goes wrong; 
+        2. The majority of software teams and managers rely on this approach 
+        3. The team flies into action in an attempt to correct emergent problems rapidly
+    - Proactive
+        1. USing defined steps for risk classification and management, identify and plan for risks
+        2. Primary objectives are to avoid risk and to have a pre-defined contingency plan in place to handle unavoidable risks in a controlled and effective manner
+3. Two dimensions of risk classification
+    - Types (technical, organizational)
+        1. ![alt text](./images/types.png "types")
+
+    - What is affected by the risk
+        1. project risks: affect schedule or resources
+        2. Product risks: affect the quality or performance of the software being developed
+        3. Business risks: affect the organisation developing pr procuring the software.
+        4. ![alt text](./images/affects.png "affect")
+
+
+

@@ -26,13 +26,19 @@ a = b + c
         c = 2}                      c = 2
 d = a * 2
 
---two ways to add
+-------------------------different ways for same function-------------------
 addXY :: (Int, Int) -> Int
 addXY (x,y) = x + y
 
 addTwo :: Int -> Int -> Int
 addTwo x y = x+y
 map (addTwo 1) [1,2,3]              [2,3,4]
+
+evens :: [Int] -> [Int]
+evens [] = []
+evens xs = [x | x <- xs, x `mod` 2 == 0]    OR evens(x:xs)
+                                                      | mod x 2 == 0 = x: evens xs
+                                                      | otherwise    = evens xs
 
 -------------------------Infinite List-------------------
 take 10(cycle[1,2,3])
@@ -50,3 +56,120 @@ _  @@ _ = False
 keepUppercase :: [Char] -> [Char]
 keepUppercase ls = [c | c <- ls, c `elem` ['A'..'Z']]
 
+
+-------------------------function: map-------------------
+map :: (a -> b) -> [a] -> [b]  
+map _ [] = []  
+map f (x:xs) = f x : map f xs
+
+map (+3) [1,5,3,1,6]  
+[4,8,6,4,9]  
+
+map (replicate 3) [3..6]  
+[[3,3,3],[4,4,4],[5,5,5],[6,6,6]] 
+
+map (map (^2)) [[1,2],[3,4,5,6],[7,8]]  
+[[1,4],[9,16,25,36],[49,64]]
+
+
+-------------------------function: filter-------------------
+filter _ [] = []  
+filter p (x:xs)   
+filter :: (a -> Bool) -> [a] -> [a]  
+    | p x       = x : filter p xs  
+    | otherwise = filter p xs 
+
+filter (>3) [1,5,3,2,1,6,4,3,2,1]  
+[5,6,4]  
+filter (==3) [1,2,3,4,5]  
+[3]  
+
+[2,4,6,8,10] 
+filter even [1..10]  
+
+-------------------------conditional expressions-------------------
+abs  :: Int -> Int
+abs n = if n >= 0 then n else -n
+--same as
+abs n 
+    | n >= 0     = n
+    | otherwise  = -n
+
+-------------------------use Eq-------------------
+myE :: Eq a => a -> [a] -> Bool
+myE _ [] = False
+myE e (x:xs) = (e == x) || (myE e xs)
+
+-------------------------isAsc function-------------------
+isAsc :: [Int] -> Bool
+isAsc [] = True
+isAsc [x] = True
+isAsc (x:y:xs) = (x <= y) && isAsc(y:xs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+type Bag a = [(a,Int)]
+
+ins :: Eq a => a -> Bag a -> Bag a
+ins x [] = [(x,1)]
+ins x ((y,n):ms) | x==y      = (y,n+1):ms
+                 | otherwise = (y,n):ins x ms
+
+del :: Eq a => a -> Bag a -> Bag a
+del x [] = []
+del x ((y,n):ms) | x==y && n>1 = (y,n-1):ms
+                 | x==y        = ms
+                 | otherwise   = (y,n):del x ms
+
+bag :: Eq a => [a] -> Bag a
+bag = foldr ins []
+
+subbag :: Eq a => Bag a -> Bag a -> Bool
+subbag [] _ = True
+subbag ((x,n):xs) ys = case lookup x ys of
+                         Just m -> n<=m && subbag xs ys
+                         Nothing -> False
+
+isbag :: Eq a => Bag a -> Bag a -> Bag a
+isbag [] _ = []
+isbag ((x,n):xs) ys = case lookup x ys of
+                         Just m -> (x,min n m):isbag xs ys
+                         Nothing -> isbag xs ys
+
+size :: Bag a -> Int
+size = sum . map snd
+
+xs,ys :: [Int]
+xs = reverse [5,7,2,3,7,8,3,7]
+ys = reverse [5,5,7,8,3,8,7]
+
+lx = bag xs
+ly = bag ys
+lz = del 8 ly
+la = del 5 lz
+lb = del 3 la
