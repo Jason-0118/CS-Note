@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="Page-1" id="gemfFnIV2rlMQUfj2cyR">
-    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="1219" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,21 +38,21 @@
           <mxGeometry x="537" y="133" width="236" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WRMiRzCfQNvGdthpxUqg-9" value="&lt;b&gt;SEV&lt;/b&gt;&lt;div&gt;emerg&lt;/div&gt;&lt;div&gt;alert&lt;/div&gt;&lt;div&gt;crit&lt;/div&gt;&lt;div&gt;err&lt;/div&gt;&lt;div&gt;warning&lt;/div&gt;&lt;div&gt;notice&lt;/div&gt;&lt;div&gt;info&lt;/div&gt;&lt;div&gt;debug&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" parent="1" vertex="1">
-          <mxGeometry x="876" y="133" width="40" height="160" as="geometry" />
+          <mxGeometry x="537" y="-56" width="40" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WRMiRzCfQNvGdthpxUqg-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WRMiRzCfQNvGdthpxUqg-9" target="WRMiRzCfQNvGdthpxUqg-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="206" y="175" as="targetPoint" />
-            <mxPoint x="274" y="64" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7L5zjm78haat7b3H0j_e-1" value="&lt;b&gt;AL2023 need to install &#39;rsyslog&#39; to have /var/log/messages&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;sudo yum install rsyslog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sudo systemctl enable rsyslog&lt;/div&gt;&lt;div&gt;sudo systemctl start rsyslog&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="876" y="310" width="340" height="67" as="geometry" />
+        <mxCell id="7L5zjm78haat7b3H0j_e-1" value="&lt;b&gt;AL2023&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;install &#39;rsyslog&#39; to have /var/log/messages&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;sudo yum install rsyslog&lt;/span&gt;&lt;/div&gt;&lt;div&gt;sudo systemctl enable rsyslog&lt;/div&gt;&lt;div&gt;sudo systemctl start rsyslog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;install cron&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;sudo dnf install cronie&lt;/div&gt;&lt;div&gt;&lt;div&gt;sudo systemctl enable crond&lt;/div&gt;&lt;div&gt;sudo systemctl start crond&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;crontab -e&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="874" y="179.5" width="340" height="67" as="geometry" />
         </mxCell>
         <mxCell id="7L5zjm78haat7b3H0j_e-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7L5zjm78haat7b3H0j_e-1" target="WRMiRzCfQNvGdthpxUqg-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="201" as="targetPoint" />
             <mxPoint x="238" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7L5zjm78haat7b3H0j_e-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WRMiRzCfQNvGdthpxUqg-9" target="WRMiRzCfQNvGdthpxUqg-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162" y="167" as="targetPoint" />
+            <mxPoint x="230" y="56" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
