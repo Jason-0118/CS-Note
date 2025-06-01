@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="Page-1" id="gemfFnIV2rlMQUfj2cyR">
-    <mxGraphModel dx="530" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="905" dy="946" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
             <mxPoint x="217" y="40" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRMiRzCfQNvGdthpxUqg-8" value="&lt;b&gt;/var/log/messages&lt;/b&gt; : kernel &amp;amp; public logs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/cron&lt;/b&gt; : cron job log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/dmesg&lt;/b&gt; : boot log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Users login log:&lt;/div&gt;&lt;div&gt;&lt;b&gt;last&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;lastb : login failed even&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;w/who&lt;/b&gt;&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" parent="1" vertex="1">
+        <mxCell id="WRMiRzCfQNvGdthpxUqg-8" value="&lt;b&gt;/var/log/messages&lt;/b&gt; : kernel &amp;amp; public logs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/cron&lt;/b&gt; : cron job log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/dmesg&lt;/b&gt; : boot log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Users login commands:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;last&lt;/div&gt;&lt;div&gt;lastb : login failed even&lt;/div&gt;&lt;div&gt;w/who&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="537" y="133" width="236" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WRMiRzCfQNvGdthpxUqg-9" value="&lt;b&gt;SEV&lt;/b&gt;&lt;div&gt;emerg&lt;/div&gt;&lt;div&gt;alert&lt;/div&gt;&lt;div&gt;crit&lt;/div&gt;&lt;div&gt;err&lt;/div&gt;&lt;div&gt;warning&lt;/div&gt;&lt;div&gt;notice&lt;/div&gt;&lt;div&gt;info&lt;/div&gt;&lt;div&gt;debug&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" parent="1" vertex="1">
