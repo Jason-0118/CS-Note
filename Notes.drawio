@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="yw4MFNZ3wBOsHrpdYT9v">
+    <mxGraphModel dx="1795" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-1" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-656" y="531.62" width="164" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-2" value="&lt;h1&gt;Linux&lt;/h1&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#333333;" parent="aszVEflvnrL5ZJWhWq7g-1" vertex="1">
+          <mxGeometry x="12.947368421052632" y="8.289473684210526" width="138.10526315789474" height="88.42105263157893" as="geometry" />
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-401" y="213" width="97" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-4" value="logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="aszVEflvnrL5ZJWhWq7g-3" vertex="1">
+          <mxGeometry x="5.484073608750282" y="5.5443934426229475" width="86.02468405882789" height="40.91803278688525" as="geometry" />
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aszVEflvnrL5ZJWhWq7g-4" target="aszVEflvnrL5ZJWhWq7g-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-451" y="449" as="targetPoint" />
+            <mxPoint x="-293" y="417.125" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aszVEflvnrL5ZJWhWq7g-8" target="aszVEflvnrL5ZJWhWq7g-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-386" y="437" as="targetPoint" />
+            <mxPoint x="-137" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-547" y="177" as="targetPoint" />
+            <mxPoint x="-479" y="66" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aszVEflvnrL5ZJWhWq7g-8" value="&lt;b&gt;/var/log/messages&lt;/b&gt; : kernel &amp;amp; public logs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/cron&lt;/b&gt; : cron job log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/dmesg&lt;/b&gt; : boot log&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Users login log:&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/lastlog&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/secure&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/wtmp&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;/var/log/btmp&lt;/b&gt;&lt;/div&gt;" style="rounded=0;html=1;labelBorderColor=none;labelBackgroundColor=default;textShadow=1;spacing=0;strokeColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-159" y="159" width="236" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
