@@ -286,6 +286,27 @@
             <mxPoint x="3889" y="595" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ehiSwxX9ziqqAgtyEM9U-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3730" y="641" width="97" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ehiSwxX9ziqqAgtyEM9U-10" value="Quotas for Amazon EBS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="ehiSwxX9ziqqAgtyEM9U-9">
+          <mxGeometry x="5.484073608750282" y="5.5443934426229475" width="86.02468405882789" height="40.91803278688525" as="geometry" />
+        </mxCell>
+        <mxCell id="ehiSwxX9ziqqAgtyEM9U-11" value="&lt;font face=&quot;Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space-collapse: preserve;&quot;&gt;https://docs.aws.amazon.com/ebs/latest/userguide/ebs-resource-quotas.html&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3977" y="646.54" width="572" height="39.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ehiSwxX9ziqqAgtyEM9U-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehiSwxX9ziqqAgtyEM9U-11" target="ehiSwxX9ziqqAgtyEM9U-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3633" y="453" as="targetPoint" />
+            <mxPoint x="3946" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehiSwxX9ziqqAgtyEM9U-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#333333;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=oval;endFill=1;strokeWidth=1;endSize=6;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehiSwxX9ziqqAgtyEM9U-10" target="Wxni8Bg2ZSDZHE1HS2Ki-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3598" y="422" as="targetPoint" />
+            <mxPoint x="3911" y="559" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
